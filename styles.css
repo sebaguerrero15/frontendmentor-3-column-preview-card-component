@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+*,
+*::before,
+*::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}   
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.containercar{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    margin: 87px auto 40px;
+}
+
+.cardsedan{
+    height: 442px;
+    padding: 50px;
+    border-radius: 10px 10px 0 0;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.imagesedan{
+    max-width: 100%;
+}
+
+.titlesedan{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.6em;
+    color: hsl(0, 0%, 95%);
+    margin:30px 0 30px 0;
+}
+
+.descriptsedan{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.btnsedan{
+    height: 47px;
+    width: 146px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.btnsedan:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cardsuv{
+    height: 442px;
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.imagesuv{
+    max-width: 100%;
+}
+
+.titlesuv{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.6em;
+    color: hsl(0, 0%, 95%);
+    margin:30px 0 30px 0;
+}
+
+.descriptsuv{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.btnsuv{
+    height: 47px;
+    width: 146px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(184, 100%, 22%);;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.btnsuv:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);;
+}
+
+.cardluxury{
+    height: 442px;
+    padding: 50px;
+    border-radius: 0 0 10px 10px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.imageluxury{
+    max-width: 100%;
+}
+
+.titleluxury{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.6em;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    margin:30px 0 30px 0;
+}
+
+.descriptluxury{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.btnluxury{
+    height: 47px;
+    width: 146px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.btnluxury:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+    
+footer{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* ------------------------Responsive------------------------- */
+
+@media only screen and (min-width: 950px) and (max-width: 1444px){
+    .containercar{
+        width: 920px;
+        display: flex;
+        flex-direction: row;
+        margin: 170px auto 130px;
+    }
+    .cardsedan{
+        height: 500px;
+        border-radius: 10px 0 0 10px;
+    }
+    .descriptsedan{
+        margin-bottom: 85px; 
+    }
+    .cardsuv{
+        height: 500px;
+    }
+    .descriptsuv{
+        margin-bottom: 85px;
+        width: 213px;
+    }
+    .cardluxury{
+        height: 500px;
+        border-radius: 0 10px 10px 0;
+    }
+    .descriptluxury{
+        margin-bottom: 85px;
+        width: 213px;
+    }
+}
