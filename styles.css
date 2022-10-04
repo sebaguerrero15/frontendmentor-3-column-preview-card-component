@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 328px;
-    max-width: 100%
+    max-width: 100%;
     margin: 87px auto 40px;
 }
 
